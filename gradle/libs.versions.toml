@@ -1,0 +1,33 @@
+[versions]
+kotlin = "1.7.10"
+android = "7.3.0"
+activity = "1.6.0"
+
+composePlugin = "1.2.2"
+androidCompose = "1.2.1"
+
+kodein = "7.18.0"
+coroutines = "1.6.4"
+kViewModel = "0.13"
+odyssey = "1.3.1"
+
+
+[libraries]
+android = { module = "com.android.tools.build:gradle", version.ref = "android"}
+kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin"}
+activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activity"}
+
+kodein = { module = "org.kodein.di:kodein-di", version.ref = "kodein"}
+
+odyssey-core = { module = "io.github.alexgladkov:odyssey-core", version.ref = "odyssey"}
+odyssey-compose = { module = "io.github.alexgladkov:odyssey-compose", version.ref = "odyssey"}
+
+compose-plugin = { module = "org.jetbrains.compose:compose-gradle-plugin", version.ref = "composePlugin"}
+androidCompose-foundation = { module = "androidx.activity:activity-compose", version.ref = "androidCompose"}
+
+kViewModel-core = { module = "com.adeo:kviewmodel", version.ref = "kViewModel" }
+kViewModel-odyssey = { module = "com.adeo:kviewmodel-odyssey", version.ref = "kViewModel" }
+kViewModel-compose = { module = "com.adeo:kviewmodel-compose", version.ref = "kViewModel" }
+
+coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines"}
+

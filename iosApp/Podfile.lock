@@ -1,0 +1,16 @@
+PODS:
+  - KnowledgeCommon (1.0)
+
+DEPENDENCIES:
+  - KnowledgeCommon (from `../shared/assembler`)
+
+EXTERNAL SOURCES:
+  KnowledgeCommon:
+    :path: "../shared/assembler"
+
+SPEC CHECKSUMS:
+  KnowledgeCommon: 2ad20986eedc985fad2854d7a6a4765f67498be5
+
+PODFILE CHECKSUM: 6de0c704029176b9e77ff6dcca295db08ff7bf9a
+
+COCOAPODS: 1.11.3
